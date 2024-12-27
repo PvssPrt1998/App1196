@@ -11,6 +11,33 @@
 		991FA0072D1E3E47008CD497 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA0062D1E3E47008CD497 /* ContentView.swift */; };
 		991FA0092D1E3E4A008CD497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 991FA0082D1E3E4A008CD497 /* Assets.xcassets */; };
 		991FA00C2D1E3E4A008CD497 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 991FA00B2D1E3E4A008CD497 /* Preview Assets.xcassets */; };
+		991FA0152D1E3E85008CD497 /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA0142D1E3E85008CD497 /* Splash.swift */; };
+		991FA0172D1E3E9A008CD497 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA0162D1E3E9A008CD497 /* Model.swift */; };
+		991FA0192D1E40BF008CD497 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA0182D1E40BF008CD497 /* Source.swift */; };
+		991FA01C2D1E4213008CD497 /* ConsumptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA01B2D1E4213008CD497 /* ConsumptionView.swift */; };
+		991FA01E2D1E4714008CD497 /* AddConsumption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA01D2D1E4713008CD497 /* AddConsumption.swift */; };
+		991FA0212D1E498C008CD497 /* TextFieldCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA0202D1E498C008CD497 /* TextFieldCustom.swift */; };
+		991FA0232D1E4D83008CD497 /* ConsumptionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA0222D1E4D83008CD497 /* ConsumptionCard.swift */; };
+		991FA0252D1E5779008CD497 /* ConsumptionEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA0242D1E5779008CD497 /* ConsumptionEdit.swift */; };
+		991FA0272D1E59CC008CD497 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA0262D1E59CC008CD497 /* Tab.swift */; };
+		991FA02A2D1E5C2E008CD497 /* PriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA0292D1E5C2E008CD497 /* PriceView.swift */; };
+		991FA02C2D1E5D79008CD497 /* AddPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA02B2D1E5D79008CD497 /* AddPrice.swift */; };
+		991FA02E2D1E6100008CD497 /* PriceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA02D2D1E6100008CD497 /* PriceCard.swift */; };
+		991FA0302D1E6615008CD497 /* EditPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA02F2D1E6615008CD497 /* EditPrice.swift */; };
+		991FA0332D1E6792008CD497 /* GoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA0322D1E6792008CD497 /* GoalView.swift */; };
+		991FA0352D1E6900008CD497 /* AddGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA0342D1E6900008CD497 /* AddGoal.swift */; };
+		991FA0372D1E696A008CD497 /* GoalCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA0362D1E696A008CD497 /* GoalCard.swift */; };
+		991FA0392D1E6DAA008CD497 /* EditGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA0382D1E6DAA008CD497 /* EditGoal.swift */; };
+		991FA03B2D1E6F4E008CD497 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA03A2D1E6F4E008CD497 /* SettingsView.swift */; };
+		991FA03E2D1E7599008CD497 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA03D2D1E7599008CD497 /* CoreDataStack.swift */; };
+		991FA0402D1E75B5008CD497 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA03F2D1E75B5008CD497 /* DataManager.swift */; };
+		991FA0432D1E75E0008CD497 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 991FA0412D1E75E0008CD497 /* DataModel.xcdatamodeld */; };
+		991FA04A2D1E76AD008CD497 /* GoalCD+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA0442D1E76AD008CD497 /* GoalCD+CoreDataClass.swift */; };
+		991FA04B2D1E76AD008CD497 /* GoalCD+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA0452D1E76AD008CD497 /* GoalCD+CoreDataProperties.swift */; };
+		991FA04C2D1E76AD008CD497 /* PriceCD+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA0462D1E76AD008CD497 /* PriceCD+CoreDataClass.swift */; };
+		991FA04D2D1E76AD008CD497 /* PriceCD+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA0472D1E76AD008CD497 /* PriceCD+CoreDataProperties.swift */; };
+		991FA04E2D1E76AD008CD497 /* ConsumptionCD+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA0482D1E76AD008CD497 /* ConsumptionCD+CoreDataClass.swift */; };
+		991FA04F2D1E76AD008CD497 /* ConsumptionCD+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA0492D1E76AD008CD497 /* ConsumptionCD+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +46,33 @@
 		991FA0062D1E3E47008CD497 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		991FA0082D1E3E4A008CD497 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		991FA00B2D1E3E4A008CD497 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		991FA0142D1E3E85008CD497 /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
+		991FA0162D1E3E9A008CD497 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		991FA0182D1E40BF008CD497 /* Source.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
+		991FA01B2D1E4213008CD497 /* ConsumptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumptionView.swift; sourceTree = "<group>"; };
+		991FA01D2D1E4713008CD497 /* AddConsumption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddConsumption.swift; sourceTree = "<group>"; };
+		991FA0202D1E498C008CD497 /* TextFieldCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustom.swift; sourceTree = "<group>"; };
+		991FA0222D1E4D83008CD497 /* ConsumptionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumptionCard.swift; sourceTree = "<group>"; };
+		991FA0242D1E5779008CD497 /* ConsumptionEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumptionEdit.swift; sourceTree = "<group>"; };
+		991FA0262D1E59CC008CD497 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		991FA0292D1E5C2E008CD497 /* PriceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceView.swift; sourceTree = "<group>"; };
+		991FA02B2D1E5D79008CD497 /* AddPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPrice.swift; sourceTree = "<group>"; };
+		991FA02D2D1E6100008CD497 /* PriceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceCard.swift; sourceTree = "<group>"; };
+		991FA02F2D1E6615008CD497 /* EditPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPrice.swift; sourceTree = "<group>"; };
+		991FA0322D1E6792008CD497 /* GoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalView.swift; sourceTree = "<group>"; };
+		991FA0342D1E6900008CD497 /* AddGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoal.swift; sourceTree = "<group>"; };
+		991FA0362D1E696A008CD497 /* GoalCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCard.swift; sourceTree = "<group>"; };
+		991FA0382D1E6DAA008CD497 /* EditGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGoal.swift; sourceTree = "<group>"; };
+		991FA03A2D1E6F4E008CD497 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		991FA03D2D1E7599008CD497 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		991FA03F2D1E75B5008CD497 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		991FA0422D1E75E0008CD497 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		991FA0442D1E76AD008CD497 /* GoalCD+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GoalCD+CoreDataClass.swift"; sourceTree = "<group>"; };
+		991FA0452D1E76AD008CD497 /* GoalCD+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GoalCD+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		991FA0462D1E76AD008CD497 /* PriceCD+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PriceCD+CoreDataClass.swift"; sourceTree = "<group>"; };
+		991FA0472D1E76AD008CD497 /* PriceCD+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PriceCD+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		991FA0482D1E76AD008CD497 /* ConsumptionCD+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConsumptionCD+CoreDataClass.swift"; sourceTree = "<group>"; };
+		991FA0492D1E76AD008CD497 /* ConsumptionCD+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConsumptionCD+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +105,14 @@
 		991FA0032D1E3E47008CD497 /* App1196 */ = {
 			isa = PBXGroup;
 			children = (
+				991FA03C2D1E7589008CD497 /* CoreData */,
+				991FA0132D1E3E79008CD497 /* Model */,
+				991FA0122D1E3E73008CD497 /* Views */,
 				991FA0042D1E3E47008CD497 /* App1196App.swift */,
 				991FA0062D1E3E47008CD497 /* ContentView.swift */,
 				991FA0082D1E3E4A008CD497 /* Assets.xcassets */,
 				991FA00A2D1E3E4A008CD497 /* Preview Content */,
+				991FA0182D1E40BF008CD497 /* Source.swift */,
 			);
 			path = App1196;
 			sourceTree = "<group>";
@@ -65,6 +123,85 @@
 				991FA00B2D1E3E4A008CD497 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		991FA0122D1E3E73008CD497 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				991FA0312D1E6785008CD497 /* GoalView */,
+				991FA0282D1E5C11008CD497 /* PriceView */,
+				991FA01F2D1E497B008CD497 /* Components */,
+				991FA01A2D1E4203008CD497 /* Consumption */,
+				991FA0142D1E3E85008CD497 /* Splash.swift */,
+				991FA0262D1E59CC008CD497 /* Tab.swift */,
+				991FA03A2D1E6F4E008CD497 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		991FA0132D1E3E79008CD497 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				991FA0162D1E3E9A008CD497 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		991FA01A2D1E4203008CD497 /* Consumption */ = {
+			isa = PBXGroup;
+			children = (
+				991FA01B2D1E4213008CD497 /* ConsumptionView.swift */,
+				991FA01D2D1E4713008CD497 /* AddConsumption.swift */,
+				991FA0222D1E4D83008CD497 /* ConsumptionCard.swift */,
+				991FA0242D1E5779008CD497 /* ConsumptionEdit.swift */,
+			);
+			path = Consumption;
+			sourceTree = "<group>";
+		};
+		991FA01F2D1E497B008CD497 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				991FA0202D1E498C008CD497 /* TextFieldCustom.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		991FA0282D1E5C11008CD497 /* PriceView */ = {
+			isa = PBXGroup;
+			children = (
+				991FA0292D1E5C2E008CD497 /* PriceView.swift */,
+				991FA02B2D1E5D79008CD497 /* AddPrice.swift */,
+				991FA02D2D1E6100008CD497 /* PriceCard.swift */,
+				991FA02F2D1E6615008CD497 /* EditPrice.swift */,
+			);
+			path = PriceView;
+			sourceTree = "<group>";
+		};
+		991FA0312D1E6785008CD497 /* GoalView */ = {
+			isa = PBXGroup;
+			children = (
+				991FA0322D1E6792008CD497 /* GoalView.swift */,
+				991FA0342D1E6900008CD497 /* AddGoal.swift */,
+				991FA0362D1E696A008CD497 /* GoalCard.swift */,
+				991FA0382D1E6DAA008CD497 /* EditGoal.swift */,
+			);
+			path = GoalView;
+			sourceTree = "<group>";
+		};
+		991FA03C2D1E7589008CD497 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				991FA0442D1E76AD008CD497 /* GoalCD+CoreDataClass.swift */,
+				991FA0452D1E76AD008CD497 /* GoalCD+CoreDataProperties.swift */,
+				991FA0462D1E76AD008CD497 /* PriceCD+CoreDataClass.swift */,
+				991FA0472D1E76AD008CD497 /* PriceCD+CoreDataProperties.swift */,
+				991FA0482D1E76AD008CD497 /* ConsumptionCD+CoreDataClass.swift */,
+				991FA0492D1E76AD008CD497 /* ConsumptionCD+CoreDataProperties.swift */,
+				991FA03D2D1E7599008CD497 /* CoreDataStack.swift */,
+				991FA03F2D1E75B5008CD497 /* DataManager.swift */,
+				991FA0412D1E75E0008CD497 /* DataModel.xcdatamodeld */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +274,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				991FA03E2D1E7599008CD497 /* CoreDataStack.swift in Sources */,
 				991FA0072D1E3E47008CD497 /* ContentView.swift in Sources */,
+				991FA04A2D1E76AD008CD497 /* GoalCD+CoreDataClass.swift in Sources */,
+				991FA04B2D1E76AD008CD497 /* GoalCD+CoreDataProperties.swift in Sources */,
+				991FA04C2D1E76AD008CD497 /* PriceCD+CoreDataClass.swift in Sources */,
+				991FA04D2D1E76AD008CD497 /* PriceCD+CoreDataProperties.swift in Sources */,
+				991FA04E2D1E76AD008CD497 /* ConsumptionCD+CoreDataClass.swift in Sources */,
+				991FA04F2D1E76AD008CD497 /* ConsumptionCD+CoreDataProperties.swift in Sources */,
+				991FA0392D1E6DAA008CD497 /* EditGoal.swift in Sources */,
+				991FA0152D1E3E85008CD497 /* Splash.swift in Sources */,
+				991FA0232D1E4D83008CD497 /* ConsumptionCard.swift in Sources */,
+				991FA01C2D1E4213008CD497 /* ConsumptionView.swift in Sources */,
+				991FA03B2D1E6F4E008CD497 /* SettingsView.swift in Sources */,
+				991FA0372D1E696A008CD497 /* GoalCard.swift in Sources */,
 				991FA0052D1E3E47008CD497 /* App1196App.swift in Sources */,
+				991FA0432D1E75E0008CD497 /* DataModel.xcdatamodeld in Sources */,
+				991FA0272D1E59CC008CD497 /* Tab.swift in Sources */,
+				991FA0302D1E6615008CD497 /* EditPrice.swift in Sources */,
+				991FA0332D1E6792008CD497 /* GoalView.swift in Sources */,
+				991FA0212D1E498C008CD497 /* TextFieldCustom.swift in Sources */,
+				991FA01E2D1E4714008CD497 /* AddConsumption.swift in Sources */,
+				991FA02A2D1E5C2E008CD497 /* PriceView.swift in Sources */,
+				991FA02E2D1E6100008CD497 /* PriceCard.swift in Sources */,
+				991FA0252D1E5779008CD497 /* ConsumptionEdit.swift in Sources */,
+				991FA0352D1E6900008CD497 /* AddGoal.swift in Sources */,
+				991FA0192D1E40BF008CD497 /* Source.swift in Sources */,
+				991FA0402D1E75B5008CD497 /* DataManager.swift in Sources */,
+				991FA02C2D1E5D79008CD497 /* AddPrice.swift in Sources */,
+				991FA0172D1E3E9A008CD497 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,21 +438,27 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App1196/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sweet Goals Tracker";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = appppp.App1196;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alt.sw33tg04lstr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,21 +472,27 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App1196/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sweet Goals Tracker";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = appppp.App1196;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alt.sw33tg04lstr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -342,6 +518,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		991FA0412D1E75E0008CD497 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				991FA0422D1E75E0008CD497 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 991FA0422D1E75E0008CD497 /* DataModel.xcdatamodel */;
+			name = DataModel.xcdatamodeld;
+			path = /Users/lucifer/Documents/SwiftProjects/App1196/App1196/CoreData/DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 991F9FF92D1E3E47008CD497 /* Project object */;
 }

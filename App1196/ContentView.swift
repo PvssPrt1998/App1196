@@ -1,24 +1,27 @@
-//
-//  ContentView.swift
-//  App1196
-//
-//  Created by Николай Щербаков on 27.12.2024.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var source: Source
+    @State var screen: Screen = .splash
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        switch screen {
+        case .splash:
+            Splash(screen: $screen)
+        case .main:
+            Tab()
         }
-        .padding()
     }
 }
 
 #Preview {
     ContentView()
+        .environmentObject(Source())
 }
+
+enum Screen {
+    case splash
+    case main
+}
+
+
