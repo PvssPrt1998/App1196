@@ -53,6 +53,9 @@ struct Tab: View {
                     .tag(3)
             }
         }
+        .onAppear {
+            AppDelegate.orientationLock = .portrait
+        }
     }
     
     @ViewBuilder func tabViewImage(_ systemName: String) -> some View {

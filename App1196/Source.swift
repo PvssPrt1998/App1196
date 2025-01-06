@@ -4,6 +4,9 @@ final class Source: ObservableObject {
     
     let dataManager = DataManager()
     
+    var skinDescription = ""
+    var show = false
+    
     @Published var consumptions: Array<Consumption> = []
     @Published var prices: Array<Price> = []
     @Published var goals: Array<Goal> = []

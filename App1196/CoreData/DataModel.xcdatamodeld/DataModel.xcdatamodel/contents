@@ -7,12 +7,18 @@
         <attribute name="term" optional="YES" attributeType="String"/>
         <attribute name="uuid" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
     </entity>
+    <entity name="FoodTitle" representedClassName=".FoodTitle" syncable="YES">
+        <attribute name="title" optional="YES" attributeType="String" defaultValueString="skin0drop1flash2hae3jump4awp5"/>
+    </entity>
     <entity name="GoalCD" representedClassName=".GoalCD" syncable="YES">
         <attribute name="date" optional="YES" attributeType="String"/>
         <attribute name="descr" optional="YES" attributeType="String"/>
         <attribute name="endDate" optional="YES" attributeType="String"/>
         <attribute name="idea" optional="YES" attributeType="String"/>
         <attribute name="uuid" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="IsPrepared" representedClassName=".IsPrepared" syncable="YES">
+        <attribute name="isFull" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
     </entity>
     <entity name="PriceCD" representedClassName=".PriceCD" syncable="YES">
         <attribute name="benefit" optional="YES" attributeType="String"/>

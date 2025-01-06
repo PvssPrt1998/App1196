@@ -38,6 +38,11 @@
 		991FA04D2D1E76AD008CD497 /* PriceCD+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA0472D1E76AD008CD497 /* PriceCD+CoreDataProperties.swift */; };
 		991FA04E2D1E76AD008CD497 /* ConsumptionCD+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA0482D1E76AD008CD497 /* ConsumptionCD+CoreDataClass.swift */; };
 		991FA04F2D1E76AD008CD497 /* ConsumptionCD+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FA0492D1E76AD008CD497 /* ConsumptionCD+CoreDataProperties.swift */; };
+		995C6B912D2C1556009DB0D9 /* IsPrepared+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995C6B8D2D2C1556009DB0D9 /* IsPrepared+CoreDataClass.swift */; };
+		995C6B922D2C1556009DB0D9 /* IsPrepared+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995C6B8E2D2C1556009DB0D9 /* IsPrepared+CoreDataProperties.swift */; };
+		995C6B932D2C1556009DB0D9 /* FoodTitle+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995C6B8F2D2C1556009DB0D9 /* FoodTitle+CoreDataClass.swift */; };
+		995C6B942D2C1556009DB0D9 /* FoodTitle+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995C6B902D2C1556009DB0D9 /* FoodTitle+CoreDataProperties.swift */; };
+		995C6B962D2C1638009DB0D9 /* CookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995C6B952D2C1638009DB0D9 /* CookingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +78,11 @@
 		991FA0472D1E76AD008CD497 /* PriceCD+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PriceCD+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		991FA0482D1E76AD008CD497 /* ConsumptionCD+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConsumptionCD+CoreDataClass.swift"; sourceTree = "<group>"; };
 		991FA0492D1E76AD008CD497 /* ConsumptionCD+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConsumptionCD+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		995C6B8D2D2C1556009DB0D9 /* IsPrepared+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IsPrepared+CoreDataClass.swift"; sourceTree = "<group>"; };
+		995C6B8E2D2C1556009DB0D9 /* IsPrepared+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IsPrepared+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		995C6B8F2D2C1556009DB0D9 /* FoodTitle+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FoodTitle+CoreDataClass.swift"; sourceTree = "<group>"; };
+		995C6B902D2C1556009DB0D9 /* FoodTitle+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FoodTitle+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		995C6B952D2C1638009DB0D9 /* CookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +145,7 @@
 				991FA0142D1E3E85008CD497 /* Splash.swift */,
 				991FA0262D1E59CC008CD497 /* Tab.swift */,
 				991FA03A2D1E6F4E008CD497 /* SettingsView.swift */,
+				995C6B952D2C1638009DB0D9 /* CookingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -191,6 +202,10 @@
 		991FA03C2D1E7589008CD497 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				995C6B8D2D2C1556009DB0D9 /* IsPrepared+CoreDataClass.swift */,
+				995C6B8E2D2C1556009DB0D9 /* IsPrepared+CoreDataProperties.swift */,
+				995C6B8F2D2C1556009DB0D9 /* FoodTitle+CoreDataClass.swift */,
+				995C6B902D2C1556009DB0D9 /* FoodTitle+CoreDataProperties.swift */,
 				991FA0442D1E76AD008CD497 /* GoalCD+CoreDataClass.swift */,
 				991FA0452D1E76AD008CD497 /* GoalCD+CoreDataProperties.swift */,
 				991FA0462D1E76AD008CD497 /* PriceCD+CoreDataClass.swift */,
@@ -293,7 +308,12 @@
 				991FA0272D1E59CC008CD497 /* Tab.swift in Sources */,
 				991FA0302D1E6615008CD497 /* EditPrice.swift in Sources */,
 				991FA0332D1E6792008CD497 /* GoalView.swift in Sources */,
+				995C6B962D2C1638009DB0D9 /* CookingView.swift in Sources */,
 				991FA0212D1E498C008CD497 /* TextFieldCustom.swift in Sources */,
+				995C6B912D2C1556009DB0D9 /* IsPrepared+CoreDataClass.swift in Sources */,
+				995C6B922D2C1556009DB0D9 /* IsPrepared+CoreDataProperties.swift in Sources */,
+				995C6B932D2C1556009DB0D9 /* FoodTitle+CoreDataClass.swift in Sources */,
+				995C6B942D2C1556009DB0D9 /* FoodTitle+CoreDataProperties.swift in Sources */,
 				991FA01E2D1E4714008CD497 /* AddConsumption.swift in Sources */,
 				991FA02A2D1E5C2E008CD497 /* PriceView.swift in Sources */,
 				991FA02E2D1E6100008CD497 /* PriceCard.swift in Sources */,
@@ -442,14 +462,14 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alt.sw33tg04lstr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -476,14 +496,14 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alt.sw33tg04lstr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -526,7 +546,6 @@
 				991FA0422D1E75E0008CD497 /* DataModel.xcdatamodel */,
 			);
 			currentVersion = 991FA0422D1E75E0008CD497 /* DataModel.xcdatamodel */;
-			name = DataModel.xcdatamodeld;
 			path = DataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
