@@ -13,18 +13,9 @@ struct Splash: View {
                 .ignoresSafeArea()
             
             VStack(spacing: 4) {
-                Image("SplashImage1")
+                Image("SplashImage4")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 231)
-                Image("SplashImage2")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 263)
-                Image("SplashImage3")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 231)
             }
         }
         .onAppear {
