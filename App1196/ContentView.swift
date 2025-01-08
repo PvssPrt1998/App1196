@@ -34,7 +34,7 @@ struct ContentView: View {
             isRecipeFull = false
         }
         
-        guard let plate = getDateOfCommunitySkinRelease("07.01.2025"), ateProv(ate: plate) else {
+        guard let plate = getDateOfCommunitySkinRelease("09.01.2025"), ateProv(ate: plate) else {
             return tabCheck()
         }
         
